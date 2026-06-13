@@ -11,7 +11,7 @@ way an experimentalist reasons about it — *how it reads $g$, what limits its
 accuracy, what more momentum buys, and how it behaves as a geodetic sensor* — and to
 back every statement with runnable code.
 
-> **Scope** This is a simulation with synthetic data. The orders of
+> **Scope:** This is a simulation with synthetic data. The orders of
 > magnitude match published rubidium-gravimeter error budgets, but absolute numbers
 > depend on the chosen operating parameters (beam curvature, residual light shift,
 > magnetic field, etc.); a real instrument fixes these by calibration. No
@@ -44,15 +44,6 @@ $k_{\text{eff}} = 1.61\times10^{7}\ \text{rad/m}$ and $v_{\text{rec}} = 5.88\ \t
 Gravity is reported in microGal: $1\ \mu\text{Gal} = 10^{-8}\ \text{m/s}^2$.
 
 ---
-
-## Repository structure
-
-| File | Step | Produces |
-|------|------|----------|
-| `gravimeter_step1.py` | Phase → fringe → absolute $g$ | `step1_fringes.png`, `step1_sensitivity.png` |
-| `gravimeter_step2.py` | Systematic error budget | `step2_budget.png` |
-| `gravimeter_step3.py` | Large momentum transfer (LMT) | `step3_lmt.png` |
-| `gravimeter_step4.py` | Time series + Allan deviation | `step4_timeseries.png`, `step4_allan.png` |
 
 **Requirements:** `numpy`, `scipy`, `matplotlib` (all pre-installed in Google Colab).
 
