@@ -6,10 +6,8 @@ gravimeter, built in four self-contained steps: from the interferometer phase,
 to absolute-$g$ recovery, to a full systematic error budget, to large-momentum-transfer
 scaling, to multi-day stability analysis with the Allan deviation.
 
-The goal is **not** a new measurement. It is to model the complete instrument the
-way an experimentalist reasons about it — *how it reads $g$, what limits its
-accuracy, what more momentum buys, and how it behaves as a geodetic sensor* — and to
-back every statement with runnable code.
+Goal. To model how a light-pulse atom gravimeter works — how it reads gg
+g, what limits its accuracy, what large momentum transfer buys, and how it behaves over time — with runnable code for every step.
 
 > **Scope:** This is a simulation with synthetic data. The orders of
 > magnitude match published rubidium-gravimeter error budgets, but absolute numbers
