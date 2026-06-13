@@ -11,7 +11,7 @@ way an experimentalist reasons about it — *how it reads $g$, what limits its
 accuracy, what more momentum buys, and how it behaves as a geodetic sensor* — and to
 back every statement with runnable code.
 
-> **Scope & honesty.** This is a simulation with synthetic data. The orders of
+> **Scope** This is a simulation with synthetic data. The orders of
 > magnitude match published rubidium-gravimeter error budgets, but absolute numbers
 > depend on the chosen operating parameters (beam curvature, residual light shift,
 > magnetic field, etc.); a real instrument fixes these by calibration. No
